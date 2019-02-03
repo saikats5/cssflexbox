@@ -12,3 +12,8 @@ flex-flow: row nowrap; //flex-direction flex-wrap
 
 Main Axis(top left to right(row)/top right to left(row-reverse)) vs Cross Axis(top to bottom)
 Main Axis(top to bottom(column)/bottom to top(column-reverse)) vs Cross Axis(top left to right)
+
+align-items: stretch; //center //flex-start //flex-end //baseline based on content //refers to cross axis
+justify-content: center; //flex-start //flex-end //refers to main axis
+
+align-content: center; //space-between //refers to cross axis when we have items in more than one line
